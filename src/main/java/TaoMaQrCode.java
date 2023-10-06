@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public class TaoMaQrCode {
     public static void main(String[] args) throws WriterException, IOException {
         String data = "109870986255";
-        String path = "C:/Users/NGOC KHANH/Desktop/test.jpg";
+        String path = "Your path/test.jpg";
 
         BitMatrix matrix = new MultiFormatWriter().encode(data, BarcodeFormat.QR_CODE,500,500);
 
